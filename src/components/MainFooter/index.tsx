@@ -9,7 +9,7 @@ export function MainFooter() {
     return( 
         <Container>
             <Content>
-                <h1>isso é um footer</h1>
+                <p>©2019 - Neovision. Todos os direitos reservados</p>
             </Content>
         </Container>
     )

@@ -16,5 +16,11 @@ export const Content = styled.div`
     display: flex;
     width: 90%;
     max-width: 1444px;
+    justify-content: center;
+    padding: 2rem;
+    p {
+        color: #fff;
+        text-align: center;
+    }
 
 `
