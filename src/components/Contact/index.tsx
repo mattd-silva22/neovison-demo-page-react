@@ -1,4 +1,4 @@
-import axios from "axios";
+
 import { FormEvent, useState } from "react";
 import { api } from "../../services/api";
 import { Container, Content } from "./styles";
@@ -19,6 +19,17 @@ export function Contact() {
     function handleSubmit(event:FormEvent) {
         event.preventDefault();
 
+        let blankFormMsg = 'Favor preencher por completo o formulario antes de enviar'
+        if(userName.trim() ==="") {
+            alert(blankFormMsg)
+            return
+        }
+
+        if(userEmail.trim() === "") {
+            alert(blankFormMsg)
+            return
+        }
+
         const userData:UserDataType = {
             name : userName,
             email : userEmail,
@@ -30,10 +41,10 @@ export function Contact() {
         };
 
         api.post('dev/register', userData , { headers} ).then( res => {
-                     if(res.status == 200) {
-                         alert('Menssagem enviada ! obrigado pelo contato')
+                     if(res.status === 200) {
+                         alert('Menssagem recebida pelo nosso servidor ! obrigado pelo contato')
                      } else {
-                         alert('Algo deu errado no envio de sua mensagem. favor tente mais tarde.')
+                         alert(`Algo deu errado. favor tente mais tarde. Error: ${res.status} `)
                      }
                 })
 

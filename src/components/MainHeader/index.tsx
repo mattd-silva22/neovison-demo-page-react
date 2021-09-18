@@ -32,6 +32,12 @@ export function MainHeader() {
                         </li>
                     </ul>
                 </nav>
+
+                <div id="ham-btn">
+                    <div className="ham-btn-bar"></div>
+                    <div className="ham-btn-bar"></div>
+                    <div className="ham-btn-bar"></div>
+                </div>
             </Content>
         </Container>
     )

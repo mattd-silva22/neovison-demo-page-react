@@ -16,10 +16,16 @@ export const Content = styled.div`
     max-width: 1444px;
     padding: 2.5rem 0;
 
-    border: 1px solid red;
+    
 
     main {
         width: 50%;
+        @media(max-width: 720px) {
+            h1 {
+                text-align: center;
+            }
+            width: 100%;
+        }
         h1 {
             color: var(--yellow);
             font-weight: 700;
@@ -38,6 +44,10 @@ export const Content = styled.div`
         flex-direction: column;
         gap: 2rem;
         list-style: none;
+
+        @media(max-width: 720px) {
+            align-items: center;
+        }
         
 
         li {
@@ -45,7 +55,7 @@ export const Content = styled.div`
             align-items: center;
             span {
                 margin-left: 1rem;
-                font-size: 3rem;
+                font-size: 2rem;
             }
         }
     }

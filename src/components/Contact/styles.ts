@@ -24,10 +24,19 @@ export const Content = styled.div`
     p {
         color: #fff;
         font-size: 2rem;
+
+        @media(max-width: 720px) {
+            text-align: center;
+        }
     }
     form {
         display: flex;
         gap: 2rem;
+        @media(max-width: 720px) {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
 
         input {
             width: 19rem;
@@ -46,11 +55,17 @@ export const Content = styled.div`
         button {
             padding: 0rem 2.1rem;
             height: 2.5rem;
+            font-size: 1.2rem;
             border: none;
             border-radius: 1rem;
             background-color: var(--darker-purple);
             text-transform: uppercase;
             color: #fff;
+
+            &:hover {
+                cursor: pointer;
+                filter: brightness(0.9);
+            }
         }
 
         
