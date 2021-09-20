@@ -18,6 +18,42 @@ export const Content = styled.div`
     width: 90%;
     max-width: 1444px;
 
+    @media(max-width: 720px) {
+            flex-direction: column;
+        }
+
+    .bannerImgArea{
+        display: none;
+        img.manImg{
+            position: relative;
+            bottom: 150px;
+            left: 185px;
+        }
+
+        img.boxImg{
+            position: relative;
+            bottom: 200px;
+            left: 375px;
+            transform: scale(1.5);
+        }
+
+        img.cellPhoneImg{
+            position: relative;
+            bottom: 30px;
+            left: 265px;
+            display: none;
+            transform: scale(0.7);
+            
+        }
+
+        img.estanteImg{
+            transform: scale(0.8);
+            position: relative;
+            bottom: -15px;
+            left: 50px;
+        }
+    }
+
 
     main {
         padding: 12rem 0rem;

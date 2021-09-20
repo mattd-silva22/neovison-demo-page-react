@@ -8,6 +8,7 @@ export const Container = styled.footer`
     width: 100%;
 
     background-color: var(--darker-purple);
+
 `
 
 

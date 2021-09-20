@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import waveBackground from "../../assets/wave.svg";
 
 export const Container = styled.div`
     display: flex;
@@ -15,11 +15,13 @@ export const Content = styled.div`
     width: 90%;
     max-width: 1444px;
     padding: 2.5rem 0;
+    
 
     
 
     main {
         width: 50%;
+        
         @media(max-width: 720px) {
             h1 {
                 text-align: center;
@@ -44,6 +46,7 @@ export const Content = styled.div`
         flex-direction: column;
         gap: 2rem;
         list-style: none;
+        
 
         @media(max-width: 720px) {
             align-items: center;

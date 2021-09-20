@@ -22,10 +22,11 @@ export const Content = styled.div`
 
     width: 90%;
     max-width: 1444px;
+    margin-bottom: 0.5rem;
 
    
 
-    h1 {
+    img {
         height: 6rem;
         padding: 1rem  2.5rem;
         border: 1px solid yellow;

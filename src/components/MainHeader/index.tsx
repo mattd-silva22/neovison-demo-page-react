@@ -1,4 +1,5 @@
 import { Container, Content } from "./styles";
+import logoImg from "../../assets/g904.png";
 
 
 export function MainHeader() {
@@ -6,12 +7,16 @@ export function MainHeader() {
     const facebookIconWidth = '32px';
     const facebookIconHeight = '32px';
     const facebookIconColor = '#f99734'
+
+    function handleHamBtn() {
+        
+    }
     
 
     return (
         <Container>
             <Content>
-                <h1>neoVISION</h1>
+                <img src={logoImg } alt="" />
 
                 <nav>
                     <ul>
