@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import waveBackground from "../../assets/wave.svg";
+
 
 export const Container = styled.div`
     display: flex;
@@ -40,26 +40,7 @@ export const Content = styled.div`
         }
     }
 
-    ul {
-        margin: 4.5rem 0;
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-        list-style: none;
-        
-
-        @media(max-width: 720px) {
-            align-items: center;
-        }
-        
-
-        li {
-            display: flex;
-            align-items: center;
-            span {
-                margin-left: 1rem;
-                font-size: 2rem;
-            }
-        }
-    }
+    
 `
+
+

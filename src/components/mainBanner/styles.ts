@@ -14,49 +14,25 @@ export const Container = styled.div`
 
 export const Content = styled.div`
     display: flex;
-    justify-content: space-between;
     width: 90%;
     max-width: 1444px;
 
     @media(max-width: 720px) {
-            flex-direction: column;
+            flex-direction: column-reverse;
         }
-
-    .bannerImgArea{
-        display: none;
-        img.manImg{
-            position: relative;
-            bottom: 150px;
-            left: 185px;
-        }
-
-        img.boxImg{
-            position: relative;
-            bottom: 200px;
-            left: 375px;
-            transform: scale(1.5);
-        }
-
-        img.cellPhoneImg{
-            position: relative;
-            bottom: 30px;
-            left: 265px;
-            display: none;
-            transform: scale(0.7);
-            
-        }
-
-        img.estanteImg{
-            transform: scale(0.8);
-            position: relative;
-            bottom: -15px;
-            left: 50px;
-        }
-    }
-
 
     main {
         padding: 12rem 0rem;
+        
+        
+
+        @media(max-width: 720px) {
+            padding: 2rem 0rem;
+            text-align: center;
+            
+            
+        }
+
         p {
             font-size: 2.1rem;
             color: #fff;
