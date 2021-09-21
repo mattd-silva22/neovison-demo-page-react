@@ -7,13 +7,13 @@
 3. para rodar a aplicação no dev server use o comando:
     ##   `npm start`
 
-para acessar a versão de produção ( disponivel no Github Pages) clique aqui
+para acessar a versão de produção ( disponivel no Github Pages) [Acesse o site ](https://mattd-silva22.github.io/neovison-demo-page-react/)
 
 
 
 
 
-## Website construindo ultilizando as seguintes tecnologias:
+## Website construido ultilizando as seguintes tecnologias:
   - React.js
   - CreateReactApp
   - Styled-components
