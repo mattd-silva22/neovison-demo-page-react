@@ -1,11 +1,11 @@
-#LandingPage neoVision 
+# LandingPage neoVision 
 
-#Para teste:
+## Para teste:
 1. clone o repositrio
 2. tenho da pasta do projeto use o comando:
-      `npm install`
+    ##   `npm install`
 3. para rodar a aplicação no dev server use o comando:
-      `npm start`
+    ##   `npm start`
 
 para acessar a versão de produção ( disponivel no Github Pages) clique aqui
 
@@ -13,7 +13,7 @@ para acessar a versão de produção ( disponivel no Github Pages) clique aqui
 
 
 
-Webasite construindo ultilizando as seguintes tecnologias:
+## Website construindo ultilizando as seguintes tecnologias:
   - React.js
   - CreateReactApp
   - Styled-components
