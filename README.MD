@@ -3,14 +3,11 @@
 #Para teste:
 1. clone o repositrio
 2. tenho da pasta do projeto use o comando:
- `npm install`
+      `npm install`
 3. para rodar a aplicação no dev server use o comando:
+      `npm start`
 
-`npm start`
-
-ou
-
-acesso este para testa a versoa de produção ( disponivel no Github Pages)
+para acessar a versão de produção ( disponivel no Github Pages) clique aqui
 
 
 
